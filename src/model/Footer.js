@@ -12,6 +12,7 @@ const Footer = () => (
             </div>
             <h4>Allie</h4>
             <h5>Product Manager</h5>
+              <a type="button" href="https://github.com/myxlinh99" className="btn-floating btn-git btn-primary" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
           </div>
           <div className="col mb-5">
             <div className="avatar mx-auto">
