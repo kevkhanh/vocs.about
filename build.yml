@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm i -g yarn
+  pre_build:
+    commands:
+      - yarn install
+  build:
+    commands:
+      - yarn build
+  post_build:
+    commands:
+      - yarn test
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'build'
