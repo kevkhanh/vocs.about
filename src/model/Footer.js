@@ -16,7 +16,7 @@ const Footer = () => (
           </div>
           <div className="col mb-5">
             <div className="avatar mx-auto">
-              <img src="https://cdn.stelo.info/img/stelo.svg" alt="Prakash" className="z-depth-1 img-fluid circle" />
+              <img src="https://cdn.stelo.info/vocs/prakash.jpg" alt="Prakash" className="z-depth-1 img-fluid circle" />
             </div>
             <h4>Prakash</h4>
             <h5>Solution Architect</h5>
@@ -29,6 +29,7 @@ const Footer = () => (
             </div>
             <h4>Leo</h4>
             <h5>Testing Coordinator</h5>
+              <a type="button" href="https://github.com/lm3267" className="btn-floating btn-git btn-primary" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
           </div>
           <div className="col mb-5">
             <div className="avatar mx-auto">

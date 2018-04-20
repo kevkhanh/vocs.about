@@ -7,7 +7,7 @@ const Header = () => (
     title="VOCS"
     className="unique-color-dark"
     iconElementLeft={<IconButton/>}
-    iconElementRight={<a className="peach-gradient btn-sm btn-floating" href="https://vocs.io"><i className="fa fa-home"></i></a>}
+    iconElementRight={<a className="purple-gradient btn-sm btn-floating" href="https://vocs.io"><i className="fa fa-home"></i></a>}
   />
 );
 
